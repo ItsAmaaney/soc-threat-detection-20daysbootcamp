@@ -77,20 +77,40 @@ Alert if:
 5 failed logins within 10 minutes
 
 **Attacker Bypass**
+```text
 09:00 FAILED LOGIN - user1
-
 09:20 FAILED LOGIN - user2
-
 09:40 FAILED LOGIN - user3
-
 10:00 FAILED LOGIN - user4
-
+```
 **Why Detection Fails**
 - Rule focuses only on short time windows
 - Ignores long-term behavior
 - Ignores distributed targeting
 
 ---
+## 🔹 Threshold 
+A threshold is the minimum limit or condition required to trigger an alert.
+
+In SOC detection rules, thresholds are commonly based on:
+
+- Number of events
+- Time window
+- Repeated behavior
+
+## 🔥 Simple Example
+
+**Detection Rule**
+
+```text
+Alert if:
+5 failed logins within 10 minutes
+```
+
+Here:
+
+- `5 failed logins` = threshold
+- `10 minutes` = time window
 
 ## 🔍 Improved Detection Thinking
 
@@ -127,9 +147,12 @@ Trigger low-and-slow spraying alert
 Attacker delays malicious actions after successful login.
 
 **Example**
+
+```text
 09:00 SUCCESS LOGIN - userA - New Country
 15:00 FILE DOWNLOAD - userA
 22:00 PASSWORD CHANGE - userA
+```
 
 **Why Attackers Delay**
 - Avoid sequence-based detection
