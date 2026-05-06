@@ -1,4 +1,4 @@
-# 📅 Day 08 – Advanced Attack Patterns
+# 📅 Day 07 – Advanced Attack Patterns
 
 ## 🎯 Learning Objective
 
@@ -82,7 +82,7 @@ Attacker uses stolen usernames and passwords from data breaches.
 - Successful logins
 - Few or no failed attempts
 - Login from unusual IP/location
-- Activity appears legitimate
+- Activity appears legitimate.
 
 **Key Indicators**
 - Success without brute-force pattern
@@ -95,7 +95,7 @@ SUCCESS LOGIN - user1 - IP: 103.22.11.5 (New Location)
 
 PASSWORD CHANGE - user1
 
-FILE DOWNLOAD - user1
+FILE DOWNLOAD - user1.
 
 ---
 
