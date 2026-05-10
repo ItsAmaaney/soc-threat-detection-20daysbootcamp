@@ -1,4 +1,4 @@
-# 📅 Day 10 – Advanced IP-Based Analysis
+# 📅 Day 9 – Advanced IP-Based Analysis
 
 ---
 
