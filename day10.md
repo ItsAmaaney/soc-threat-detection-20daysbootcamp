@@ -1,4 +1,4 @@
-# 📅 Day 12 – Investigation Flow & Alert Triage Exercises
+# 📅 Day 10 – Investigation Flow & Alert Triage Exercises
 
 ---
 
