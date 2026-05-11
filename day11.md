@@ -28,7 +28,7 @@ Good SOC teams continuously tune detections to improve quality over quantity.
 
 ---
 
-## ✅ Better Detection Logic
+## ✅ Better Detection Logic.
 
 Weak rule: `3 failed logins`
 

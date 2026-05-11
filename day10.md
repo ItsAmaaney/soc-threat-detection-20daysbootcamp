@@ -6,7 +6,7 @@
 
 Understand:
 - Alert triage
-- Severity assessment
+- Severity assessment.
 - Investigation flow
 - Confidence-based analysis
 - Persistence recognition
